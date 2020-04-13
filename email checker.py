@@ -37,8 +37,9 @@ emaillist = Convert(email)
 
 #loop
 for x in emaillist:
-   #print(x)
+   print(x)
    check(x)
+   print("\n")
 
 # calling run function  
 #check(email) 
